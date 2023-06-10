@@ -1,0 +1,20 @@
+{
+  "name": "desafio4",
+  "version": "1.0.0",
+  "description": "Desafio 4 proposto pelo médoto \"Alavanque sua carreira\" com Testes de Software by Juli de lima",
+  "main": "Desafio4.js",
+  "scripts": {
+    "test": "npx mocha"
+  },
+  "keywords": [
+    "testes",
+    "qa",
+    "javascript",
+    "mocha"
+  ],
+  "author": "Grupo10 Turma1",
+  "license": "MIT",
+  "devDependencies": {
+    "mocha": "^10.2.0"
+  }
+}
