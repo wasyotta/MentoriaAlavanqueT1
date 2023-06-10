@@ -11,10 +11,10 @@ describe('Teste Para Retornar a quantidade de pessoas e suas faixas etárias', f
     //aqui nesse trecho de código temos uma constante chamada pessoas  que esta recebendo uma lista de objetos com os dados de cada membro do time
     const pessoas = [
       { nome: 'Wilson', idade: 10, email: 'will@grupo10.com' },
-      { nome: 'Uliana', idade: 0, email: 'Uli@grupo10.com' },
-      { nome: 'Mona', idade: 0, email: 'Monagrupo10.com' },
-      { nome: 'Raisa', idade: 0, email: 'Raisagrupo10.com' },
-      { nome: 'Dani', idade: 0, email: 'Danigrupo10.com' },
+      { nome: 'Uliana', idade: 12, email: 'Uli@grupo10.com' },
+      { nome: 'Mona', idade: 17, email: 'Monagrupo10.com' },
+      { nome: 'Raisa', idade: 18, email: 'Raisagrupo10.com' },
+      { nome: 'Dani', idade: 25, email: 'Danigrupo10.com' },
     ];
 
     const quantidadePessoas = idadePessoas(pessoas);
